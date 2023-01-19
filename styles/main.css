@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/* * {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+} */
+body {
+  background: #f0f0f0;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 1.5em;
+  width: 101vw;
+  font-size: 3em;
+  text-align: center;
+  color: black;
+  padding-top: 0.7em;
+  /* Below will do the gradient background of title */
+  background: linear-gradient(
+      to right,
+      rgba(255, 215, 255, 0) 0%,
+      rgba(225, 255, 255, 0.5) 20%,
+      rgba(255, 255, 255, 0) 61%
+    ),
+    linear-gradient(
+      rgb(51, 93, 167) 52%,
+      rgb(224, 246, 255) 60%,
+      rgb(241, 142, 22) 61%
+    );
+}
+
+ul {
+  list-style-type: none;
+}
+.navbar {
+  background-color: #426caf;
+  color: #ffffff;
+  height: 4em;
+}
+.navbar a {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 10em;
+}
+.blog-posts {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-right: 60vw;
+  width: 40vw;
+  background: #ffffff;
+}
+.photos {
+  /* margin-left: 60vw; */
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  margin-right: 10vw;
+  background: #ffffff;
+  justify-content: center;
+}
+.content .container {
+  display: flex;
+  flex-basis: 100px;
+  height: 100vh;
+  color: black;
+  justify-content: center;
+}
+.content .container div {
+  display: flex;
+  margin: 10px;
+}
+.columns {
+  display: flex;
+}
+.columns:nth-of-type(1) {
+  flex: 1.5 3 1px;
+}
+.columns:nth-of-type(2) {
+  color: white;
+  flex-grow: 4;
+  min-width: 100px;
+  background-color: #426caf;
+  flex-basis: 100px;
+  flex-wrap: wrap;
+}
+.columns:nth-of-type(3) {
+  color: white;
+  flex-grow: 4;
+  background-color: #426caf;
+  flex-wrap: wrap;
+  flex-basis: 100px;
+}
+.columns:nth-of-type(4) {
+  flex: 1.5 3 1px;
+}
+
+.columns h2 {
+  text-decoration-line: underline;
+  font-size: 1.5em;
+  padding-left: 2em;
+}
+
+.columns img {
+  align-items: center;
+  display: block;
+  max-width: 50%;
+  object-fit: fill;
+  width: auto;
+  height: auto;
+}
