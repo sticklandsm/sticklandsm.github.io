@@ -122,8 +122,8 @@ ul {
 .columns img {
   align-items: center;
   display: block;
-  max-width: 75%;
-  object-fit: fill;
+  max-width: 50%;
+  object-fit:contain;
   width: auto;
   height: auto;
 }
