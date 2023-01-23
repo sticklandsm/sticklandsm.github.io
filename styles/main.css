@@ -123,7 +123,7 @@ ul {
   align-items: center;
   display: block;
   max-width: 50%;
-  object-fit:contain;
+  object-fit: contain;
   width: auto;
   height: auto;
 }
@@ -140,6 +140,16 @@ ul {
 @media screen and (max-width: 800px) {
   body {
     font-size: 0.5em;
+  }
+}
+@media (min-width: 320px) {
+  body {
+    font-size: 1.1em;
+  }
+}
+@media (min-width: 480px) {
+  body {
+    font-size: 1.1em;
   }
 }
 
