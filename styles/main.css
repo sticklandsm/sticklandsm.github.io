@@ -179,3 +179,8 @@ span.box:hover {
   border-style: dashed;
   border-color: rgb(255, 145, 0);
 }
+
+#xanadu:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
